@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\Debug\libexpatd.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\examples\Debug\elements.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\examples\Debug\outline.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\tests\Debug\runtests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\tests\Debug\runtestspp.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\xmlwf\Debug\xmlwf.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\x64\Debug\INSTALL</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs>
+    <NonRecipeFileRef>
+      <FullPath>C:\Users\Tella\Libraries\buildtrees\expat\ZERO_CHECK.proj</FullPath>
+    </NonRecipeFileRef>
+  </NonRecipeFileRefs>
+</Project>

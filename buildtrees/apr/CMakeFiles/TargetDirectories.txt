@@ -1,0 +1,9 @@
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/gen_test_char.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/test_char_header.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/libapr-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/apr-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/libaprapp-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/aprapp-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/INSTALL.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/ZERO_CHECK.dir

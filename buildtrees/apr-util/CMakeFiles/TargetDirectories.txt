@@ -1,0 +1,7 @@
+C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/libaprutil-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/aprutil-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/apr_dbd_odbc-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/apr_ldap-1.dir
+C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/INSTALL.dir
+C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/ZERO_CHECK.dir

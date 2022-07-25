@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_brigade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_eos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_flush.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_mmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_pipe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_refcount.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_simple.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\buckets\apr_buckets_socket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\apr_crypto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\apr_md4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\apr_md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\apr_passwd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\apr_sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\apr_siphash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\crypt_blowfish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\getuuid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\crypto\uuid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\dbd\apr_dbd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\dbm\apr_dbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\dbm\apr_dbm_sdbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\dbm\sdbm\sdbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\dbm\sdbm\sdbm_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\dbm\sdbm\sdbm_lock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\dbm\sdbm\sdbm_pair.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\encoding\apr_base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\hooks\apr_hooks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\memcache\apr_memcache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\misc\apr_date.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\misc\apr_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\misc\apr_reslist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\misc\apr_rmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\misc\apr_thread_pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\misc\apu_dso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\misc\apu_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\redis\apr_redis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\strmatch\apr_strmatch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\uri\apr_uri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\xlate\xlate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\xml\apr_xml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\ldap\apr_ldap_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apr-util-1.6.1\ldap\apr_ldap_url.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Tella\Libraries\buildtrees\apr-util\apu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Tella\Libraries\buildtrees\apr-util\apr_ldap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Tella\Libraries\buildtrees\apr-util\apu_want.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\apr-util-1.6.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D0169603-6A27-3CB0-80B4-F862D8FDDF2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{613E5CE3-7E12-39A3-BDF1-123BD5D2BF0E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

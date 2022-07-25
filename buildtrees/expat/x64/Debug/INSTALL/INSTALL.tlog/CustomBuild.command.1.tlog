@@ -1,0 +1,10 @@
+^C:\USERS\TELLA\LIBRARIES\BUILDTREES\EXPAT\CMAKEFILES\5B78149ADD9EF73531521FF857698B93\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

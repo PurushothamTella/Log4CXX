@@ -1,0 +1,10 @@
+^C:\USERS\TELLA\LIBRARIES\APR-UTIL-1.6.1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apr-util-1.6.1 -BC:/Users/Tella/Libraries/buildtrees/apr-util --check-stamp-file C:/Users/Tella/Libraries/buildtrees/apr-util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

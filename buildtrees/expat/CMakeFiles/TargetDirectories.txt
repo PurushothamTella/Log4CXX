@@ -1,0 +1,11 @@
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/expat.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/xmlwf.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/elements.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/outline.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/runtests.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/runtestspp.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/PACKAGE.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/RUN_TESTS.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/INSTALL.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tella/Libraries/buildtrees/expat/CMakeFiles/ZERO_CHECK.dir

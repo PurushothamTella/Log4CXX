@@ -1,0 +1,10 @@
+^C:\USERS\TELLA\LIBRARIES\APACHE-LOG4CXX-0.11.0\SRC\TEST\CPP\DEFAULTINIT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/test/cpp/defaultinit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

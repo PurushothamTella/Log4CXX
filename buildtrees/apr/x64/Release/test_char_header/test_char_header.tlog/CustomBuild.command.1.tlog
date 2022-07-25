@@ -1,0 +1,28 @@
+^C:\USERS\TELLA\LIBRARIES\BUILDTREES\APR\CMAKEFILES\CEEA7CE7BA91CDA16046DAE28F06B699\APR_ESCAPE_TEST_CHAR.H.RULE
+setlocal
+Release\gen_test_char.exe > C:/Users/Tella/Libraries/buildtrees/apr/apr_escape_test_char.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TELLA\LIBRARIES\BUILDTREES\APR\CMAKEFILES\FFEC64F518A8672812C387CC16D4772E\TEST_CHAR_HEADER.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TELLA\LIBRARIES\APR-1.7.0\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apr-1.7.0 -BC:/Users/Tella/Libraries/buildtrees/apr --check-stamp-file C:/Users/Tella/Libraries/buildtrees/apr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

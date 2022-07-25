@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\c44f7e640e68cbf6eecab50b48a50bbe\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DC614650-EE16-33E1-9A5D-E35C37DFA54A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

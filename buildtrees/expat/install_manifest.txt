@@ -1,0 +1,12 @@
+/Users/Tella/Libraries/installed/include/expat_config.h
+/Users/Tella/Libraries/installed/lib/libexpatd.lib
+/Users/Tella/Libraries/installed/bin/libexpatd.dll
+/Users/Tella/Libraries/installed/include/expat.h
+/Users/Tella/Libraries/installed/include/expat_external.h
+/Users/Tella/Libraries/installed/bin/xmlwf.exe
+/Users/Tella/Libraries/installed/share/doc/expat/AUTHORS
+/Users/Tella/Libraries/installed/share/doc/expat/changelog
+/Users/Tella/Libraries/installed/lib/cmake/expat-2.4.8/expat-config.cmake
+/Users/Tella/Libraries/installed/lib/cmake/expat-2.4.8/expat-config-version.cmake
+/Users/Tella/Libraries/installed/lib/cmake/expat-2.4.8/expat.cmake
+/Users/Tella/Libraries/installed/lib/cmake/expat-2.4.8/expat-debug.cmake

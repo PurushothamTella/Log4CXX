@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\test\cpp\rolling\manualrollingtest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\test\cpp\rolling\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{69E11B03-849B-32DA-AB7C-F839F27D4C35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

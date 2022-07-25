@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\buildtrees\expat\CMakeFiles\5b78149add9ef73531521ff857698b93\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3B86204D-9707-330D-9562-3BA158D2B631}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

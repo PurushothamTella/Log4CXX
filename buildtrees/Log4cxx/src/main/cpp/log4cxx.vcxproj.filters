@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\andfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\appenderattachableimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\appenderskeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\aprinitializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\asyncappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\basicconfigurator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bufferedwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bytearrayinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bytearrayoutputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bytebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\cacheddateformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\charsetdecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\charsetencoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\classnamepatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\classregistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\configurator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\consoleappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\cyclicbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\dailyrollingfileappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datagrampacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datagramsocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\dateformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datelayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datepatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\defaultconfigurator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\defaultloggerfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\defaultrepositoryselector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\domconfigurator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fallbackerrorhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fileappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filedatepatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fileinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filelocationpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fileoutputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filerenameaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filewatchdog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filterbasedtriggeringpolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fixedwindowrollingpolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\formattinginfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fulllocationpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\gzcompressaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\hierarchy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\htmllayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\inetaddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\inputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\inputstreamreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\integerpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\jsonlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\levelmatchfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\levelpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\levelrangefilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\linelocationpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\lineseparatorpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\literalpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\locale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\locationinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggermatchfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggerpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggingevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggingeventpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loglog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\logmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\logstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\manualtriggeringpolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\mapfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\mdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\messagebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\messagepatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\methodlocationpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\nameabbreviator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\namepatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\ndc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\ndcpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\nteventlogappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\objectimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\objectoutputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\objectptr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\obsoleterollingfileappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\odbcappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\onlyonceerrorhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\optionconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\outputdebugstringappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\outputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\outputstreamwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\patternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\patternlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\patternparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertiespatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertyconfigurator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertyresourcebundle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertysetter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\relativetimedateformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\relativetimepatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\resourcebundle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rollingfileappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rollingpolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rollingpolicybase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rolloverdescription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rootlogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\serversocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\simpledateformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\simplelayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\sizebasedtriggeringpolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\smtpappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socketappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socketappenderskeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\sockethubappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socketoutputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\strftimedateformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\stringhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\stringmatchfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\stringtokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\synchronized.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\syslogappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\syslogwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\systemerrwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\systemoutwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\telnetappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadcxx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadlocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadspecificdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\throwableinformationpatternconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\timebasedrollingpolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\timezone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\transcoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\triggeringpolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\ttcclayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\writerappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\xmllayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\xmlsocketappender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\zipcompressaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\resources\log4cxx.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{69E11B03-849B-32DA-AB7C-F839F27D4C35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

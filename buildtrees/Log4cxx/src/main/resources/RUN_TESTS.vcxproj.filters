@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\c13e7315bdc4f9d3c5170d000c83b7c6\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DC614650-EE16-33E1-9A5D-E35C37DFA54A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

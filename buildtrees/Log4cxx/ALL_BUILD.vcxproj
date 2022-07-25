@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB2D0288-0569-3C10-A335-CE11A0CBD86E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR-Util.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\projectVersionDetails.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR-Util.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\projectVersionDetails.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR-Util.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\projectVersionDetails.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR-Util.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\FindAPR.cmake;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\cmake\projectVersionDetails.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeCXXCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeRCCompiler.cmake;C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\3.24.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\ZERO_CHECK.proj">
+      <Project>{26FBBE84-333F-3976-B9A6-0D0625C73893}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\absolutetimedateformattestcase.vcxproj">
+      <Project>{3EBC8DD1-928F-3250-B1EB-FDC9E9ACB7A7}</Project>
+      <Name>absolutetimedateformattestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\asyncappendertestcase.vcxproj">
+      <Project>{DE0EFB36-80B8-32E2-AEA4-E17E71957DFA}</Project>
+      <Name>asyncappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\cacheddateformattestcase.vcxproj">
+      <Project>{EF8FBED4-2A72-3D29-B061-F75A8E3336A4}</Project>
+      <Name>cacheddateformattestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\charsetdecodertestcase.vcxproj">
+      <Project>{B4AE6F74-6AA7-33F3-96DA-3C80357AC457}</Project>
+      <Name>charsetdecodertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\charsetencodertestcase.vcxproj">
+      <Project>{C7FA30A1-F5C0-39D6-92B0-B9E28B6A74B5}</Project>
+      <Name>charsetencodertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\examples\cpp\console.vcxproj">
+      <Project>{AFB0464E-9120-3933-96CA-8ACE4F490C39}</Project>
+      <Name>console</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\consoleappendertestcase.vcxproj">
+      <Project>{08E8F0BD-E4A2-3BF6-8E7B-C48D6DEA1B26}</Project>
+      <Name>consoleappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\cyclicbuffertestcase.vcxproj">
+      <Project>{9444CA8C-1B97-34A6-821D-E3AFC6E05708}</Project>
+      <Name>cyclicbuffertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\datetimedateformattestcase.vcxproj">
+      <Project>{96AAA65D-D104-3F76-BA33-D216DB3FD5DD}</Project>
+      <Name>datetimedateformattestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\decodingtest.vcxproj">
+      <Project>{DD714E6C-0057-32F7-972A-C4297BED21B3}</Project>
+      <Name>decodingtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\defaultinit\defaultinittestcase.vcxproj">
+      <Project>{4A368D65-02EE-30A5-B809-DB5B32B4466E}</Project>
+      <Name>defaultinittestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\examples\cpp\delayedloop.vcxproj">
+      <Project>{48C73E31-8A7E-3377-921B-A9B9EC87B5FF}</Project>
+      <Name>delayedloop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\encodingtest.vcxproj">
+      <Project>{A71879D5-095B-39A0-85F4-CCD2DDCCD997}</Project>
+      <Name>encodingtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\varia\errorhandlertestcase.vcxproj">
+      <Project>{04DA603B-5CFD-33B1-97FB-D87D028200D6}</Project>
+      <Name>errorhandlertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\nt\eventlogtests.vcxproj">
+      <Project>{71321642-0DE5-3C30-B366-22AA204D6B1B}</Project>
+      <Name>eventlogtests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\fileappendertest.vcxproj">
+      <Project>{FF4A2CFD-0D69-3C9B-8433-E2AA9DF563D1}</Project>
+      <Name>fileappendertest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rolling\filenamepatterntestcase.vcxproj">
+      <Project>{B5E29D34-5089-3BAA-BA13-BC9C508F0F28}</Project>
+      <Name>filenamepatterntestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\filetestcase.vcxproj">
+      <Project>{F70225A5-D1D7-3BBC-960B-3DA4D1FC3362}</Project>
+      <Name>filetestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\filewatchdogtest.vcxproj">
+      <Project>{3BA2C9EA-454F-3F71-9B5B-22C861D9C799}</Project>
+      <Name>filewatchdogtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rolling\filterbasedrollingtest.vcxproj">
+      <Project>{1517975C-5E0A-3D29-A8E1-977E16BA1D2D}</Project>
+      <Name>filterbasedrollingtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\filter\filtertests.vcxproj">
+      <Project>{F8C99448-672A-32FE-9E0E-B8E1C0807172}</Project>
+      <Name>filtertests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\hierarchytest.vcxproj">
+      <Project>{A73FD2B7-F5E0-3035-A2B0-3DA4A7BC0117}</Project>
+      <Name>hierarchytest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\hierarchythresholdtestcase.vcxproj">
+      <Project>{E91F7879-5184-3641-AC15-E75B63BE02BB}</Project>
+      <Name>hierarchythresholdtestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\inetaddresstestcase.vcxproj">
+      <Project>{624A96C2-7EEA-3E18-AF45-3EC77575DE74}</Project>
+      <Name>inetaddresstestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\iso8601dateformattestcase.vcxproj">
+      <Project>{F4AB3610-EBCB-3B34-A4FE-21363505919B}</Project>
+      <Name>iso8601dateformattestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\jsonlayouttest.vcxproj">
+      <Project>{DB4705F7-ECEB-3436-8A2F-A72B34FC2640}</Project>
+      <Name>jsonlayouttest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\l7dtestcase.vcxproj">
+      <Project>{87D4F9AA-E875-353A-9C57-BE218CE1D990}</Project>
+      <Name>l7dtestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\varia\levelmatchfiltertestcase.vcxproj">
+      <Project>{7BAAF412-52DB-3A2F-8B4B-7497701BB674}</Project>
+      <Name>levelmatchfiltertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\varia\levelrangefiltertestcase.vcxproj">
+      <Project>{FED9C6FB-4124-3879-9608-402A6EB6C44D}</Project>
+      <Name>levelrangefiltertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\leveltestcase.vcxproj">
+      <Project>{16FDB916-272D-3B03-8CB0-83641A6B0763}</Project>
+      <Name>leveltestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\log4cxx.vcxproj">
+      <Project>{0A90F55C-AEBC-3429-8ACA-01DF3342395B}</Project>
+      <Name>log4cxx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\loggertestcase.vcxproj">
+      <Project>{D99A3957-A3FD-39B2-B18D-65D1FB6AF414}</Project>
+      <Name>loggertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rolling\manualrollingtest.vcxproj">
+      <Project>{8782A35F-FEF4-3249-8F34-91961513E1DC}</Project>
+      <Name>manualrollingtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\mdctestcase.vcxproj">
+      <Project>{F9C59756-0E4F-3622-B5FC-2634A82360F2}</Project>
+      <Name>mdctestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\messagebuffertest.vcxproj">
+      <Project>{CAC14685-BB72-3A21-B1D2-E98C3D120E75}</Project>
+      <Name>messagebuffertest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\minimumtestcase.vcxproj">
+      <Project>{6A7B62C8-FC65-3C63-9298-57694D80F78F}</Project>
+      <Name>minimumtestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\ndctestcase.vcxproj">
+      <Project>{D848FDC8-6EB7-3E54-A783-2810F3371622}</Project>
+      <Name>ndctestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rolling\obsoletedailyrollingfileappendertest.vcxproj">
+      <Project>{D6F0CD56-0CE0-31A4-884B-2AA19E0607EA}</Project>
+      <Name>obsoletedailyrollingfileappendertest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rolling\obsoleterollingfileappendertest.vcxproj">
+      <Project>{548B9C50-FF1A-3AC9-A445-74CA39D88B35}</Project>
+      <Name>obsoleterollingfileappendertest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\db\odbcappendertestcase.vcxproj">
+      <Project>{6A4E681B-3EF0-3FB0-978E-FB3A0991F3E3}</Project>
+      <Name>odbcappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\optionconvertertestcase.vcxproj">
+      <Project>{A9B33ABF-D500-35B4-98F2-C304AA87B876}</Project>
+      <Name>optionconvertertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\patternlayouttest.vcxproj">
+      <Project>{37839768-F231-3697-BFE5-F81C6AF764C7}</Project>
+      <Name>patternlayouttest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\pattern\patternparsertestcase.vcxproj">
+      <Project>{CDF28B1A-EADC-3292-B43F-C7A75AD0E68F}</Project>
+      <Name>patternparsertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\propertiestestcase.vcxproj">
+      <Project>{5EBA8906-3543-312D-BCB7-66045F3578F1}</Project>
+      <Name>propertiestestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\propertyconfiguratortest.vcxproj">
+      <Project>{9E6B926A-BFA9-3188-9E61-CFD6544677C1}</Project>
+      <Name>propertyconfiguratortest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\relativetimedateformattestcase.vcxproj">
+      <Project>{7A5D3AD6-8F91-33D9-8E3F-6F5942CDF729}</Project>
+      <Name>relativetimedateformattestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rollingfileappendertestcase.vcxproj">
+      <Project>{5AA4C4BA-BFE5-3BAB-85AE-7871B3907546}</Project>
+      <Name>rollingfileappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rolling\sizebasedrollingtest.vcxproj">
+      <Project>{0A50603C-986C-3D41-B372-D7726E7DC4F4}</Project>
+      <Name>sizebasedrollingtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\net\socketappendertestcase.vcxproj">
+      <Project>{344DF73D-DA2E-3290-B946-1A600BAB0D70}</Project>
+      <Name>socketappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\net\sockethubappendertestcase.vcxproj">
+      <Project>{92F4EC35-08F0-3D65-B796-5BA96FCB5715}</Project>
+      <Name>sockethubappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\spi\spitestcase.vcxproj">
+      <Project>{42B1C085-F015-3F73-8B36-C80166F27C83}</Project>
+      <Name>spitestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\examples\cpp\stream.vcxproj">
+      <Project>{AEF61D6A-4C0E-3F59-971D-FF0F98BEA129}</Project>
+      <Name>stream</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\streamtestcase.vcxproj">
+      <Project>{2F3F8BCE-34A2-3171-9DEE-01E0889BB5EE}</Project>
+      <Name>streamtestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\stringhelpertestcase.vcxproj">
+      <Project>{2F61048D-A323-365A-BE24-4AA38A8AF6B0}</Project>
+      <Name>stringhelpertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\stringtokenizertestcase.vcxproj">
+      <Project>{0E2A9201-C38B-38E4-A835-46A16174B855}</Project>
+      <Name>stringtokenizertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\net\syslogappendertestcase.vcxproj">
+      <Project>{4352955C-74FC-3EE9-B91A-4B5722465078}</Project>
+      <Name>syslogappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\syslogwritertest.vcxproj">
+      <Project>{71877CDA-0294-396E-B7C2-72F19E22C820}</Project>
+      <Name>syslogwritertest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\net\telnetappendertestcase.vcxproj">
+      <Project>{26C897AD-C1DC-3BAF-ADFC-0E32727E333B}</Project>
+      <Name>telnetappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\testingFramework.vcxproj">
+      <Project>{7E1E288C-8456-3EB5-B016-13E9275C4287}</Project>
+      <Name>testingFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\util\testingUtilities.vcxproj">
+      <Project>{EBEA7DA5-4A71-3F62-AABB-D16409BAE479}</Project>
+      <Name>testingUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\threadtestcase.vcxproj">
+      <Project>{9E07009F-C2F0-3144-BD5C-B6EB50F91A73}</Project>
+      <Name>threadtestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\rolling\timebasedrollingtest.vcxproj">
+      <Project>{5F6BFC45-86E6-315E-B058-BAF0DAFE7438}</Project>
+      <Name>timebasedrollingtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\timezonetestcase.vcxproj">
+      <Project>{CCB97306-FDA5-3CA3-AB28-196512669B68}</Project>
+      <Name>timezonetestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\helpers\transcodertestcase.vcxproj">
+      <Project>{48130DB3-E079-3C48-9F02-A6330144BC13}</Project>
+      <Name>transcodertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\examples\cpp\trivial.vcxproj">
+      <Project>{B46079ED-8501-3A38-8616-F5936A02AF84}</Project>
+      <Name>trivial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\customlogger\xloggertestcase.vcxproj">
+      <Project>{47775FBD-4BBD-3D28-BF33-CFE7B9FA9B63}</Project>
+      <Name>xloggertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\net\xmlsocketappendertestcase.vcxproj">
+      <Project>{D31FDC00-D694-321C-BC70-3C159D35590A}</Project>
+      <Name>xmlsocketappendertestcase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\test\cpp\xml\xmltests.vcxproj">
+      <Project>{206D1122-AB3F-352E-8408-52D594BE396F}</Project>
+      <Name>xmltests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A90F55C-AEBC-3429-8ACA-01DF3342395B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>log4cxx</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">log4cxx.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">log4cxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">log4cxx.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">log4cxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">log4cxx.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">log4cxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">log4cxx.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">log4cxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LOG4CXX;CMAKE_INTDIR="Debug";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LOG4CXX;CMAKE_INTDIR=\"Debug\";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>\Users\Tella\Libraries\installed\lib\libaprutil-1.lib;\Users\Tella\Libraries\installed\lib\libapr-1.lib;odbc32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/Debug/log4cxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/Debug/log4cxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LOG4CXX;CMAKE_INTDIR="Release";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LOG4CXX;CMAKE_INTDIR=\"Release\";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>\Users\Tella\Libraries\installed\lib\libaprutil-1.lib;\Users\Tella\Libraries\installed\lib\libapr-1.lib;odbc32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/Release/log4cxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/Release/log4cxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LOG4CXX;CMAKE_INTDIR="MinSizeRel";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LOG4CXX;CMAKE_INTDIR=\"MinSizeRel\";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>\Users\Tella\Libraries\installed\lib\libaprutil-1.lib;\Users\Tella\Libraries\installed\lib\libapr-1.lib;odbc32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/MinSizeRel/log4cxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/MinSizeRel/log4cxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LOG4CXX;CMAKE_INTDIR="RelWithDebInfo";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LOG4CXX;CMAKE_INTDIR=\"RelWithDebInfo\";log4cxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include;C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\include;\Users\Tella\Libraries\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>\Users\Tella\Libraries\installed\lib\libaprutil-1.lib;\Users\Tella\Libraries\installed\lib\libapr-1.lib;odbc32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/RelWithDebInfo/log4cxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/RelWithDebInfo/log4cxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/src/main/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/src/main/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/src/main/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Tella/Libraries/apache-log4cxx-0.11.0/src/main/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tella/Libraries/apache-log4cxx-0.11.0 -BC:/Users/Tella/Libraries/buildtrees/Log4cxx --check-stamp-file C:/Users/Tella/Libraries/buildtrees/Log4cxx/src/main/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\action.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\andfilter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\appenderattachableimpl.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\appenderskeleton.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\aprinitializer.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\asyncappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\basicconfigurator.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bufferedwriter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bytearrayinputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bytearrayoutputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\bytebuffer.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\cacheddateformat.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\charsetdecoder.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\charsetencoder.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\class.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\classnamepatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\classregistration.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\condition.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\configurator.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\consoleappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\cyclicbuffer.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\dailyrollingfileappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datagrampacket.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datagramsocket.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\date.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\dateformat.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datelayout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\datepatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\defaultconfigurator.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\defaultloggerfactory.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\defaultrepositoryselector.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\domconfigurator.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\exception.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fallbackerrorhandler.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\file.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fileappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filedatepatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fileinputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filelocationpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fileoutputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filerenameaction.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filewatchdog.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\filterbasedtriggeringpolicy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fixedwindowrollingpolicy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\formattinginfo.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\fulllocationpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\gzcompressaction.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\hierarchy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\htmllayout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\inetaddress.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\inputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\inputstreamreader.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\integer.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\integerpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\jsonlayout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\layout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\level.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\levelmatchfilter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\levelpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\levelrangefilter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\linelocationpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\lineseparatorpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\literalpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loader.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\locale.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\locationinfo.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\logger.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggermatchfilter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggerpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggingevent.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loggingeventpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\loglog.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\logmanager.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\logstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\manualtriggeringpolicy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\mapfilter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\mdc.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\messagebuffer.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\messagepatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\methodlocationpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\mutex.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\nameabbreviator.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\namepatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\ndc.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\ndcpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\nteventlogappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\objectimpl.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\objectoutputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\objectptr.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\obsoleterollingfileappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\odbcappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\onlyonceerrorhandler.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\optionconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\outputdebugstringappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\outputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\outputstreamwriter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\patternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\patternlayout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\patternparser.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\pool.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\properties.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertiespatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertyconfigurator.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertyresourcebundle.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\propertysetter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\reader.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\relativetimedateformat.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\relativetimepatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\resourcebundle.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rollingfileappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rollingpolicy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rollingpolicybase.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rolloverdescription.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\rootlogger.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\serversocket.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\simpledateformat.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\simplelayout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\sizebasedtriggeringpolicy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\smtpappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socket.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socketappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socketappenderskeleton.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\sockethubappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\socketoutputstream.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\strftimedateformat.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\stringhelper.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\stringmatchfilter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\stringtokenizer.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\synchronized.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\syslogappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\syslogwriter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\system.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\systemerrwriter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\systemoutwriter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\telnetappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadcxx.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadlocal.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\threadspecificdata.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\throwableinformationpatternconverter.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\timebasedrollingpolicy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\timezone.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\transcoder.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\transform.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\triggeringpolicy.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\ttcclayout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\writer.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\writerappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\xmllayout.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\xmlsocketappender.cpp" />
+    <ClCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\cpp\zipcompressaction.cpp" />
+    <ResourceCompile Include="C:\Users\Tella\Libraries\apache-log4cxx-0.11.0\src\main\resources\log4cxx.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\ZERO_CHECK.proj">
+      <Project>{26FBBE84-333F-3976-B9A6-0D0625C73893}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Tella\Libraries\buildtrees\Log4cxx\src\main\include\configure_log4cxx.vcxproj">
+      <Project>{23E612C1-768A-3B07-8A57-43F1373BDC9A}</Project>
+      <Name>configure_log4cxx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
